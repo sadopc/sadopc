@@ -1,0 +1,23 @@
+//Üçgen Yapma Programı
+
+
+#include <iostream>
+#include <stdlib.h>
+#include <time.h>
+#include <cmath>
+using namespace std;
+int main(){
+    int a,b,c,n,i,j;
+    cout << "bir değer giriniz : ";
+    cin >> n;
+    cout << endl;
+    for (i=1 ; i<=n ; i++){
+        for (a=1 ; a<=n-i  ; a++){
+            cout << " ";
+        }
+        for (j=1 ; j<i*2 ; j++){
+            cout << "*";
+        }
+        cout << endl;
+    }
+}
